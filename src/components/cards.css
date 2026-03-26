@@ -1,0 +1,19 @@
+.movie-card {
+    width: 9rem !important;
+    text-decoration: none;
+    color: black;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.movie-card:hover{
+    width: 10rem;
+}

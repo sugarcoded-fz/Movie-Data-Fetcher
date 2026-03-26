@@ -1,0 +1,79 @@
+.trending {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 2rem;
+}
+
+.trending>* {
+    flex: 0 0 auto;
+}
+
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    width: 9rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.banner {
+    padding: 2rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90878e;
+}
+
+.banner h3 {
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.trendingLabel {
+    font-weight: bold;
+    font-size: larger;
+    margin: 2rem 2rem 0;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    margin: 2rem 2rem 0;
+    gap: 2rem;
+}
+
+button {
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 345px) {
+    .banner {
+        padding: 1rem;
+    }
+}
