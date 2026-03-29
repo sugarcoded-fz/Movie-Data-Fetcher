@@ -24,4 +24,4 @@ A simple **Movie Fetcher application** built with **React**. Search for movies a
 
 ##  Live Preview
 
-https://my-portfolio-fz.vercel.app/
+https://movie-data-fetcher.vercel.app/
